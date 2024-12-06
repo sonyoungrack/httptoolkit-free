@@ -14,6 +14,7 @@ export default merge(common, {
     devServer: {
         host: 'localhost',
         historyApiFallback: true,
+        open:true,
         client: {
             overlay: {
                 runtimeErrors: (error) => {
